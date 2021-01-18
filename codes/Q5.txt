@@ -1,0 +1,19 @@
+h1 ping -c5 -s100 h1: 0.066ms
+h1 ping -c5 -s100 h2: 0.102ms
+h1 ping -c5 -s100 h3: 0.052ms
+h1 ping -c5 -s100 h4: 0.110ms
+
+h1 ping -c5 -s65000 h1: 0.118ms
+h1 ping -c5 -s65000 h2: 203ms
+h1 ping -c5 -s65000 h3: 1017ms
+h1 ping -c5 -s65000 h4: 1017ms
+
+h3 ping -c5 -s100 h1: 0.113ms
+h3 ping -c5 -s100 h2: 0.080ms
+h3 ping -c5 -s100 h3: 0.028ms
+h3 ping -c5 -s100 h4: 205ms
+
+h3 ping -c5 -s65000 h1: 1017ms
+h3 ping -c5 -s65000 h2: 1018ms
+h3 ping -c5 -s65000 h3: 0.049ms
+h3 ping -c5 -s65000 h4: 0.100ms
